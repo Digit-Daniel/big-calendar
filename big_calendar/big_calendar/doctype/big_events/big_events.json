@@ -1,0 +1,86 @@
+{
+ "creation": "2020-03-18 16:16:23.368397",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "doc",
+  "title",
+  "start",
+  "end",
+  "color",
+  "park_field",
+  "park_list",
+  "type_field"
+ ],
+ "fields": [
+  {
+   "description": "The name of the doctype with start date and end date fields",
+   "fieldname": "doc",
+   "fieldtype": "Link",
+   "label": "Doc",
+   "options": "DocType"
+  },
+  {
+   "description": "The name of the title field",
+   "fieldname": "title",
+   "fieldtype": "Select",
+   "label": "Title"
+  },
+  {
+   "description": "The name of the start date field",
+   "fieldname": "start",
+   "fieldtype": "Select",
+   "label": "Start"
+  },
+  {
+   "description": "The name of the end date field",
+   "fieldname": "end",
+   "fieldtype": "Select",
+   "label": "End"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color"
+  },
+  {
+   "default": "0",
+   "fieldname": "park_list",
+   "fieldtype": "Check",
+   "label": "Park List"
+  },
+  {
+   "fieldname": "park_field",
+   "fieldtype": "Select",
+   "label": "Park Field"
+  },
+  {
+   "fieldname": "type_field",
+   "fieldtype": "Select",
+   "label": "Type Field"
+  }
+ ],
+ "modified": "2022-01-18 15:10:21.094902",
+ "modified_by": "Administrator",
+ "module": "Big Calendar",
+ "name": "Big Events",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
